@@ -65,6 +65,7 @@ import Stripe
         StripeAPIClient.shared.ephemeralKeyUrl = PluginConfig.ephemeralKeyUrl
         STPPaymentConfiguration.shared().companyName = PluginConfig.companyName
         STPPaymentConfiguration.shared().publishableKey = PluginConfig.publishableKey
+        STPPaymentConfiguration.shared().requiredBillingAddressFields = STPBillingAddressFields.full
 
         if !PluginConfig.appleMerchantId.isEmpty {
             STPPaymentConfiguration.shared().appleMerchantIdentifier = PluginConfig.appleMerchantId

@@ -19,3 +19,6 @@ scripts/ios/Pods
 
 
  
+.idea/cordova-plugin-stripe-payments.iml
+.idea/modules.xml
+.idea/vcs.xml
